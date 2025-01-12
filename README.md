@@ -1,5 +1,10 @@
 # cse210-student-template
-This is the starter code for students in CSE 210.
+I have failed this class twice already. I just didn't have enough time with my job previously.
+I have since quit said job and am taking this class in person rather than online.
+Please have mercy on me.
+
+Nicolas Hopkins
+
 
 This repository contains the starter code for many different projects. They are arranged as follows:
 
