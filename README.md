@@ -3,7 +3,7 @@ I have failed this class twice already. I just didn't have enough time with my j
 I have since quit said job and am taking this class in person rather than online.
 Please have mercy on me.
 
-Nicolas Hopkins
+Nicolas Hopkin
 
 
 This repository contains the starter code for many different projects. They are arranged as follows:
