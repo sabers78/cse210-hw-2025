@@ -4,20 +4,31 @@ public class Breathe : Activity
 {
 
 
-    public void Display()
+    public Breathe(string intro, string description, int duration): base(intro,description,duration)
     {
-        Introduction();
-        for (int i = 0; i < 5; i++)
+
+    }
+    public void Run()
+    {
+        Console.WriteLine(Introduction());
+
+        SetDuration();
+        ShowSpinner(5);
+        
+
+        DateTime startingTime = DateTime.Now;
+        DateTime endingTime = startingTime.AddSeconds(_duration);
+        while (DateTime.Now < endingTime)
         {
-            Console.Write("Breath in...");
+            Console.WriteLine("Breath in...");
             countDown();
-            Console.Write("Breath Out...");
+            Console.WriteLine("Breath Out...");
             countDown();
 
         }
         Console.WriteLine("Done.");
         Thread.Sleep(2000);
-        Console.WriteLine($"It took {_duration} seconds to complete this activity.");
+        End();
 
     }
 
